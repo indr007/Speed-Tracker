@@ -1,0 +1,63 @@
+﻿
+  Initialized 
+native services in: 
+C:\Users\Indra 
+Singh\.gradle\native
+  Initialized jansi 
+services in: 
+C:\Users\Indra 
+Singh\.gradle\native
+  Received JVM 
+installation 
+metadata from 
+'C:\Users\Indra Sing
+h\.jdks\jbr-17.0.14'
+: {JAVA_HOME=C:\User
+s\Indra Singh\.jdks\
+jbr-17.0.14, JAVA_VE
+RSION=17.0.14, JAVA_
+VENDOR=JetBrains 
+s.r.o., RUNTIME_NAME
+=OpenJDK Runtime 
+Environment, RUNTIME
+_VERSION=17.0.14+1-b
+1367.22, 
+VM_NAME=OpenJDK 
+64-Bit Server VM, VM
+_VERSION=17.0.14+1-b
+1367.22, 
+VM_VENDOR=JetBrains 
+s.r.o., 
+OS_ARCH=amd64}
+> The client will 
+now receive all 
+logging from the 
+daemon (pid: 4224). 
+The daemon log 
+file: 
+C:\Users\Indra Singh
+\.gradle\daemon\8.4\
+daemon-4224.out.log
+> Starting 21st 
+build in daemon 
+[uptime: 14 mins 
+37.352 secs, 
+performance: 99%, 
+GC rate: 0.00/s, 
+heap usage: 0% of 2 
+GiB]
+  Using 12 worker 
+leases.
+  Now considering [E
+:\App\speed-tracker]
+ as hierarchies to 
+watch
+  Watching the file 
+system is 
+configured to be 
+enabled if available
+  File system 
+watching is active
+  Starting Build
+
+

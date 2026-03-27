@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Speed Tracker</string>
+    <string name="trip_history">Trip History</string>
+    <string name="no_trips">No trips found</string>
+    <string name="clear_history">Clear History</string>
+    <string name="trip_route">Trip Route</string>
+</resources>

@@ -1,0 +1,189 @@
+
+> Configure project :app
+WARNING: Accessing value buildConfigFields in variant debug has no effect as the feature buildConfig is disabled.
+WARNING: Accessing value buildConfigFields in variant release has no effect as the feature buildConfig is disabled.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin UP-TO-DATE
+
+> Task :app:compileDebugKotlin FAILED
+.\gradlew.bat : e: f
+ile:///E:/App/speed-
+tracker/app/src/main
+/java/com/example/sp
+eedtracker/ui/MainSc
+reen.kt:1:1 
+Duplicate JVM class 
+name 'com/example/sp
+eedtracker/ui/screen
+s/MainScreenKt' 
+generated from: 
+MainScreenKt, 
+MainScreenKt
+At line:1 char:1
++ .\gradlew.bat 
+assembleDebug > 
+build_log_3.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo  
+            : NotS  
+  pecified: (e: f   
+ ile:///E:/A...t    
+, MainScreenKt:    
+String) [], Rem    
+oteException
+    + FullyQualifie 
+   dErrorId : Nati  
+  veCommandError
+ 
+e: file:///E:/App/sp
+eed-tracker/app/src/
+main/java/com/exampl
+e/speedtracker/ui/Ma
+inScreen.kt:31:31 
+Duplicate JVM class 
+name 'com/example/sp
+eedtracker/ui/screen
+s/MainScreenKt$MainS
+creen$1$3' 
+generated from: 
+`<no name 
+provided>`, `<no 
+name provided>`
+e: file:///E:/App/sp
+eed-tracker/app/src/
+main/java/com/exampl
+e/speedtracker/ui/Ma
+inScreen.kt:35:30 
+Duplicate JVM class 
+name 'com/example/sp
+eedtracker/ui/screen
+s/MainScreenKt$MainS
+creen$1$4' 
+generated from: 
+`<no name 
+provided>`, `<no 
+name provided>`
+e: file:///E:/App/sp
+eed-tracker/app/src/
+main/java/com/exampl
+e/speedtracker/ui/sc
+reens/MainScreen.kt:
+1:1 Duplicate JVM 
+class name 'com/exam
+ple/speedtracker/ui/
+screens/MainScreenKt
+' generated from: 
+MainScreenKt, 
+MainScreenKt
+e: file:///E:/App/sp
+eed-tracker/app/src/
+main/java/com/exampl
+e/speedtracker/ui/sc
+reens/MainScreen.kt:
+84:9 Duplicate JVM 
+class name 'com/exam
+ple/speedtracker/ui/
+screens/MainScreenKt
+$MainScreen$1$3' 
+generated from: 
+`<no name 
+provided>`, `<no 
+name provided>`
+e: file:///E:/App/sp
+eed-tracker/app/src/
+main/java/com/exampl
+e/speedtracker/ui/sc
+reens/MainScreen.kt:
+95:11 Duplicate JVM 
+class name 'com/exam
+ple/speedtracker/ui/
+screens/MainScreenKt
+$MainScreen$1$4' 
+generated from: 
+`<no name 
+provided>`, `<no 
+name provided>`
+
+[Incubating] Problems report is available at: file:///E:/App/speed-tracker/build/reports/problems/problems-report.html
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed 
+for task ':app:compi
+leDebugKotlin'.
+> A failure 
+occurred while 
+executing org.jetbra
+ins.kotlin.compilerR
+unner.GradleCompiler
+RunnerWithWorkers$Gr
+adleKotlinCompilerWo
+rkAction
+   > Compilation 
+error. See log for 
+more details
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info 
+or --debug option 
+to get more log 
+output.
+> Run with --scan 
+to get full 
+insights.
+> Get more help at h
+ttps://help.gradle.o
+rg.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 8s
+30 actionable tasks: 2 executed, 28 up-to-date
